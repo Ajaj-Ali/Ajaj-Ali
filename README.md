@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.svg" alt="Ajaj Ali - GenAI, Voice AI, Agentic Systems Engineer" width="100%" />
+</p>
+
 <h1 align="center">Hi, I'm Ajaj Ali 👋</h1>
 
 <h3 align="center">Applied AI Engineer — GenAI · Voice AI · RAG · Agentic Systems</h3>
@@ -9,7 +13,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/ajaj-ali/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:ajajali7534@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+  <a href="https://huggingface.co/ajajali09"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
   <a href="https://github.com/Ajaj-Ali"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
