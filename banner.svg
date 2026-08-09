@@ -1,0 +1,156 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#1e1a4d"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- subtle grid dots -->
+  <g opacity="0.08">
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff"/>
+    </pattern>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+  </g>
+
+  <!-- ===== Neural network (GenAI) top-right ===== -->
+  <g transform="translate(880,40)" stroke="#7b61ff" stroke-width="1.4" opacity="0.7">
+    <line x1="20" y1="30" x2="90" y2="10"/>
+    <line x1="20" y1="30" x2="90" y2="55"/>
+    <line x1="20" y1="30" x2="90" y2="95"/>
+    <line x1="90" y1="10" x2="160" y2="35"/>
+    <line x1="90" y1="55" x2="160" y2="35"/>
+    <line x1="90" y1="55" x2="160" y2="80"/>
+    <line x1="90" y1="95" x2="160" y2="80"/>
+    <line x1="160" y1="35" x2="230" y2="55"/>
+    <line x1="160" y1="80" x2="230" y2="55"/>
+  </g>
+  <g transform="translate(880,40)">
+    <circle cx="20" cy="30" r="5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="10" r="5" fill="#7b61ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="55" r="5" fill="#7b61ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="95" r="5" fill="#7b61ff">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="35" r="5" fill="#00d4ff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="80" r="5" fill="#00d4ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="230" cy="55" r="6" fill="#ffffff">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ===== Desk ===== -->
+  <rect x="330" y="220" width="330" height="14" rx="4" fill="#3a3466"/>
+  <rect x="345" y="234" width="10" height="40" fill="#2a2550"/>
+  <rect x="630" y="234" width="10" height="40" fill="#2a2550"/>
+
+  <!-- ===== Chair ===== -->
+  <rect x="420" y="150" width="14" height="90" rx="6" fill="#2a2550"/>
+  <rect x="405" y="140" width="44" height="14" rx="6" fill="#2a2550"/>
+
+  <!-- ===== Character (flat, generic silhouette - working at laptop) ===== -->
+  <!-- body -->
+  <path d="M400 220 C398 185 410 165 440 165 C470 165 482 185 480 220 Z" fill="#4b3f8c"/>
+  <!-- head -->
+  <circle cx="440" cy="140" r="26" fill="#e0a878"/>
+  <!-- simple hair -->
+  <path d="M414 132 C412 108 468 108 466 132 C466 118 414 118 414 132 Z" fill="#2a2340"/>
+  <!-- arm to laptop -->
+  <path d="M462 190 C480 195 500 205 515 210" stroke="#4b3f8c" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M418 190 C400 198 388 205 378 212" stroke="#4b3f8c" stroke-width="16" stroke-linecap="round" fill="none"/>
+
+  <!-- ===== Laptop ===== -->
+  <g transform="translate(500,175)">
+    <rect x="0" y="30" width="120" height="8" rx="2" fill="#c9c4e8"/>
+    <path d="M8 30 L20 -55 L100 -55 L112 30 Z" fill="#1b1740" stroke="#00d4ff" stroke-width="1.5"/>
+    <rect x="26" y="-49" width="68" height="73" fill="#050318"/>
+    <circle cx="60" cy="-14" r="30" fill="url(#screenGlow)">
+      <animate attributeName="r" values="24;32;24" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- waveform lines on screen representing voice AI -->
+    <g stroke="#00d4ff" stroke-width="2.5" stroke-linecap="round">
+      <line x1="40" y1="-14" x2="40" y2="-14">
+        <animate attributeName="y1" values="-14;-24;-14" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-14;-4;-14" dur="1s" repeatCount="indefinite"/>
+      </line>
+      <line x1="50" y1="-14" x2="50" y2="-14">
+        <animate attributeName="y1" values="-14;-30;-14" dur="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-14;2;-14" dur="0.8s" repeatCount="indefinite"/>
+      </line>
+      <line x1="60" y1="-14" x2="60" y2="-14">
+        <animate attributeName="y1" values="-14;-22;-14" dur="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-14;-6;-14" dur="1.2s" repeatCount="indefinite"/>
+      </line>
+      <line x1="70" y1="-14" x2="70" y2="-14">
+        <animate attributeName="y1" values="-14;-28;-14" dur="0.9s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-14;0;-14" dur="0.9s" repeatCount="indefinite"/>
+      </line>
+      <line x1="80" y1="-14" x2="80" y2="-14">
+        <animate attributeName="y1" values="-14;-20;-14" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="-14;-8;-14" dur="1.1s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+
+  <!-- ===== Floating voice waveform bars (bottom-left, mic input) ===== -->
+  <g transform="translate(80,230)" fill="url(#glow)" filter="url(#softGlow)">
+    <rect x="0" y="-20" width="8" height="20" rx="3">
+      <animate attributeName="height" values="14;40;14" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-7;-20;-7" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="-30" width="8" height="30" rx="3">
+      <animate attributeName="height" values="30;10;30" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-15;-5;-15" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="-45" width="8" height="45" rx="3">
+      <animate attributeName="height" values="45;18;45" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-22;-9;-22" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="42" y="-25" width="8" height="25" rx="3">
+      <animate attributeName="height" values="20;38;20" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;-19;-10" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="56" y="-35" width="8" height="35" rx="3">
+      <animate attributeName="height" values="35;12;35" dur="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-17;-6;-17" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== Text ===== -->
+  <text x="700" y="130" font-family="Verdana, Arial, sans-serif" font-size="46" font-weight="bold" fill="#ffffff">Ajaj Ali</text>
+  <text x="700" y="168" font-family="Verdana, Arial, sans-serif" font-size="19" fill="#9fa8ff">GenAI &#183; Voice AI &#183; Agentic Systems Engineer</text>
+  <text x="700" y="196" font-family="Verdana, Arial, sans-serif" font-size="15" fill="#7d86c9">Building production LLM, RAG &amp; Speech-to-Speech pipelines @ Oriserve</text>
+
+  <!-- accent underline -->
+  <rect x="700" y="208" width="230" height="3" rx="1.5" fill="url(#glow)"/>
+</svg>
