@@ -33,7 +33,8 @@ I'm an **Applied AI Engineer with 2+ years of experience** building production-s
 - ⚡ Engineered a production S2S pipeline with **sub-1s response time** and **80% reduction in operational cost**
 - 🧠 Built a production-grade **ReAct (Observe–Reason–Act)** agent architecture for enterprise knowledge retrieval, using dynamic context pruning, tool calling, and multi-hop reasoning
 - 🗣️ Shipped a multilingual **TTS system supporting 17 Indian languages** with real-time streaming, deployed on Hugging Face Spaces
-- 📚 Scraped and processed **60,000+ documents and audio samples** to build training data and knowledge bases for LLM/TTS/STT models
+- 📚 Scraped and processed **60,000+ documents** and **9,000+ hours of audio data** to build training data and knowledge bases for LLM, TTS, and STT models
+- 🎙️ Owned the full audio data pipeline for STT/TTS — denoising, audio enhancement, and standardized VAD (Voice Activity Detection) — to produce clean, high-precision speech datasets at scale
 - 🎓 B.Tech in Computer Science, Kurukshetra University (2020–2024)
 
 ---
@@ -83,12 +84,32 @@ I'm an **Applied AI Engineer with 2+ years of experience** building production-s
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white">
 </p>
 
-**Data**
+**Data / Audio Engineering**
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white">
 <img src="https://img.shields.io/badge/Pinecone-000000?style=flat">
 <img src="https://img.shields.io/badge/ChromaDB-000000?style=flat">
+<img src="https://img.shields.io/badge/Audio%20Denoising-FF6F00?style=flat">
+<img src="https://img.shields.io/badge/Audio%20Enhancement-FF6F00?style=flat">
+<img src="https://img.shields.io/badge/VAD-FF6F00?style=flat">
+<img src="https://img.shields.io/badge/Web%20Scraping-4B8BBE?style=flat">
 </p>
+
+---
+
+### 🎙️ Data Engineering — Speech Data Pipeline at Scale
+
+Built and owned the end-to-end audio data pipeline that powers Oriserve's STT and TTS models — from raw scraped audio to production-ready training data.
+
+| Stage | What I did |
+|---|---|
+| **Sourcing** | Scraped and collected **9,000+ hours** of raw audio, alongside 60,000+ documents, from web and internal sources |
+| **Cleaning** | Denoising and audio enhancement to strip background noise and artifacts from raw recordings |
+| **Segmentation** | Standardized **VAD (Voice Activity Detection)** to accurately isolate speech segments and remove silence/non-speech audio |
+| **Quality** | Applied a repeatable, standardized processing pipeline to consistently produce **high-precision, production-grade speech datasets** |
+| **Outcome** | Cleaner training data directly improved STT/TTS model accuracy and naturalness in production |
+
+**Stack:** Python, audio signal processing, VAD, Pandas, large-scale web scraping, data pipelines
 
 ---
 
