@@ -1,147 +1,227 @@
+
 <p align="center">
-  <img src="./banner.svg" alt="Ajaj Ali - GenAI, Voice AI, Agentic Systems Engineer" width="100%" />
+  <img src="./banner.svg" alt="Ajaj Ali | Applied AI Engineer" width="100%" />
 </p>
 
-<h1 align="center">Hi, I'm Ajaj Ali 👋</h1>
+<h1 align="center">Hey, I'm Ajaj Ali 👋</h1>
 
-<h3 align="center">Applied AI Engineer — GenAI · Voice AI · RAG · Agentic Systems</h3>
+<h3 align="center">
+  AI Engineer | GenAI | Agentic AI | Voice AI
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Building+production-scale+LLM+%26+RAG+systems;Real-time+Speech-to-Speech+%7C+TTS+at+scale;LangGraph+%7C+vLLM+%7C+Triton+%7C+FastAPI+%7C+Docker;80%25+cost+reduction+on+production+voice+pipelines" alt="Typing SVG" />
+  <a href="https://www.linkedin.com/in/ajaj-ali/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:ajajali7534@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://huggingface.co/ajajali09">
+    <img src="https://img.shields.io/badge/Hugging_Face-Models_&_Datasets-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  </a>
+  <a href="https://github.com/Ajaj-Ali">
+    <img src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ajaj-ali/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:ajajali7534@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://huggingface.co/ajajali09"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
-  <a href="https://github.com/Ajaj-Ali"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ajaj-Ali&label=Profile%20Views&color=2E9EF7&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/badge/Data%20Scientist-Oriserve-2E9EF7?style=flat" />
-  <img src="https://img.shields.io/badge/Location-Delhi%2C%20India-2E9EF7?style=flat" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Engineering+Production-Ready+GenAI+Systems;Building+RAG+Pipelines+%26+Autonomous+AI+Agents;Real-Time+Voice+AI+%7C+Streaming+Speech-to-Speech;LLMs+%7C+vLLM+%7C+Triton+%7C+LangGraph+%7C+FastAPI" alt="Specializing in GenAI, Agentic AI and Voice AI" />
 </p>
 
 ---
 
-### 🚀 About Me
+## 🧠 About Me
 
-I'm an **Applied AI Engineer with 2+ years of experience** building production-scale **LLM, RAG, Voice AI, and Conversational AI** systems. Currently a **Data Scientist at Oriserve**, where I design and ship real-time speech-to-speech pipelines, TTS infrastructure, multi-agent reasoning systems, and scalable inference architectures for enterprise clients including **IndiaFirst Life Insurance, Ikea, Metropolis, and Indigo**.
+I'm an **Applied AI Engineer with 2+ years of experience** building and deploying AI systems that solve real-world problems.
 
-- 🔭 Currently building next-gen **streaming Speech-to-Speech (S2S)** architectures and full-duplex spoken dialogue systems
-- ⚡ Engineered a production S2S pipeline with **sub-1s response time** and **80% reduction in operational cost**
-- 🧠 Built a production-grade **ReAct (Observe–Reason–Act)** agent architecture for enterprise knowledge retrieval, using dynamic context pruning, tool calling, and multi-hop reasoning
-- 🗣️ Shipped a multilingual **TTS system supporting 17 Indian languages** with real-time streaming, deployed on Hugging Face Spaces
-- 📚 Scraped and processed **60,000+ documents** and **9,000+ hours of audio data** to build training data and knowledge bases for LLM, TTS, and STT models
-- 🎙️ Owned the full audio data pipeline for STT/TTS — denoising, audio enhancement, and standardized VAD (Voice Activity Detection) — to produce clean, high-precision speech datasets at scale
-- 🎓 B.Tech in Computer Science, Kurukshetra University (2020–2024)
+My work spans **LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, Conversational AI, and real-time Voice AI** — from designing intelligent systems to optimizing their performance in production.
 
----
+Currently, I work at **Oriserve**, building AI-powered solutions for enterprise applications across customer support, conversational automation, and speech technologies.
 
-### 🧰 Tech Stack
+### ⚡ What I Build
 
-**GenAI / LLM / Agentic AI**
-<p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white">
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat">
-<img src="https://img.shields.io/badge/RAG-4B8BBE?style=flat">
-<img src="https://img.shields.io/badge/MCP-4B8BBE?style=flat">
-<img src="https://img.shields.io/badge/Prompt%20Engineering-4B8BBE?style=flat">
-<img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA%20%2F%20QLoRA-4B8BBE?style=flat">
-</p>
+- **Agentic AI:** ReAct agents, tool calling, multi-step reasoning, and LangGraph workflows.
+- **RAG Systems:** Hybrid retrieval, semantic search, reranking, and knowledge-grounded generation.
+- **Voice AI:** Real-time streaming Speech-to-Speech, conversational pipelines, and multilingual TTS.
+- **LLM Infrastructure:** Model serving, inference optimization, deployment, and scalable AI APIs.
+- **Speech ML:** STT/TTS training data, audio enhancement, denoising, and VAD pipelines.
 
-**Voice AI / Speech**
-<p>
-<img src="https://img.shields.io/badge/TTS-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/S2S%20Streaming-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/Voice%20Cloning-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/VAD-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/Whisper-FF6F00?style=flat">
-</p>
+### 📈 Engineering Impact
 
-**ML / DL Frameworks**
-<p>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white">
-<img src="https://img.shields.io/badge/🤗%20Transformers-FFD21E?style=flat">
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white">
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white">
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white">
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white">
-</p>
-
-**Serving / Infra / MLOps**
-<p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/NVIDIA%20Triton-76B900?style=flat&logo=nvidia&logoColor=white">
-<img src="https://img.shields.io/badge/vLLM-76B900?style=flat">
-<img src="https://img.shields.io/badge/TensorRT--LLM-76B900?style=flat">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/Kubernetes%20(EKS)-326CE5?style=flat&logo=kubernetes&logoColor=white">
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white">
-<img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white">
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white">
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white">
-</p>
-
-**Data / Audio Engineering**
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/Pinecone-000000?style=flat">
-<img src="https://img.shields.io/badge/ChromaDB-000000?style=flat">
-<img src="https://img.shields.io/badge/Audio%20Denoising-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/Audio%20Enhancement-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/VAD-FF6F00?style=flat">
-<img src="https://img.shields.io/badge/Web%20Scraping-4B8BBE?style=flat">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <h2> &lt;1s </h2>
+      <b>Voice AI Response</b>
+      <br />
+      <sub>Streaming Speech-to-Speech</sub>
+    </td>
+    <td align="center">
+      <h2>80%</h2>
+      <b>Cost Reduction</b>
+      <br />
+      <sub>Production Voice Pipeline</sub>
+    </td>
+    <td align="center">
+      <h2>17</h2>
+      <b>Indian Languages</b>
+      <br />
+      <sub>Multilingual TTS</sub>
+    </td>
+    <td align="center">
+      <h2>60K+</h2>
+      <b>Documents</b>
+      <br />
+      <sub>Processed for AI systems</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🎙️ Data Engineering — Speech Data Pipeline at Scale
+## 🏗️ Technical Expertise
 
-Built and owned the end-to-end audio data pipeline that powers Oriserve's STT and TTS models — from raw scraped audio to production-ready training data.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,kubernetes,aws,postgres,git,linux&perline=9" />
+</p>
 
-| Stage | What I did |
+### Generative AI & Agentic Systems
+
+<p>
+  <img src="https://img.shields.io/badge/LLMs-412991?style=flat&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-0EA5E9?style=flat" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat" />
+  <img src="https://img.shields.io/badge/Agentic_AI-7C3AED?style=flat" />
+  <img src="https://img.shields.io/badge/MCP-6366F1?style=flat" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-2563EB?style=flat" />
+  <img src="https://img.shields.io/badge/PEFT_/_LoRA_/_QLoRA-7C3AED?style=flat" />
+  <img src="https://img.shields.io/badge/Vector_Search-0EA5E9?style=flat" />
+</p>
+
+### Voice AI & Speech Engineering
+
+<p>
+  <img src="https://img.shields.io/badge/Real--Time_Voice_AI-FF6F00?style=flat" />
+  <img src="https://img.shields.io/badge/Speech--to--Speech-FF6F00?style=flat" />
+  <img src="https://img.shields.io/badge/TTS-FF6F00?style=flat" />
+  <img src="https://img.shields.io/badge/STT_/_Whisper-FF6F00?style=flat" />
+  <img src="https://img.shields.io/badge/VAD-FF6F00?style=flat" />
+  <img src="https://img.shields.io/badge/Audio_Processing-FF6F00?style=flat" />
+</p>
+
+### Model Serving & Infrastructure
+
+<p>
+  <img src="https://img.shields.io/badge/vLLM-76B900?style=flat" />
+  <img src="https://img.shields.io/badge/NVIDIA_Triton-76B900?style=flat&logo=nvidia" />
+  <img src="https://img.shields.io/badge/TensorRT--LLM-76B900?style=flat" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws" />
+  <img src="https://img.shields.io/badge/CI_/_CD-D24939?style=flat" />
+</p>
+
+### ML, Data & Storage
+
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn" />
+  <img src="https://img.shields.io/badge/Pinecone-000000?style=flat" />
+  <img src="https://img.shields.io/badge/ChromaDB-000000?style=flat" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/Ajaj-Ali">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ajaj-Ali&repo=text_preprocessor_for_TTS&theme=transparent&hide_border=true" />
+  </a>
+</p>
+
+### 🎙️ OriTTS — Multilingual Voice Generation
+
+Production-oriented multilingual TTS supporting **17 Indian languages**, built for natural speech generation and real-time streaming.
+
+**Focus:** Multilingual synthesis · Text normalization · Streaming inference
+
+**Stack:** PyTorch · Hugging Face · TTS
+
+🔗 [Explore my Hugging Face profile](https://huggingface.co/ajajali09)
+
+### 🧩 Text Preprocessor for TTS
+
+A configurable text normalization pipeline for multilingual speech synthesis, handling numbers, dates, currencies, symbols, abbreviations, and language-specific text processing.
+
+**Focus:** Text normalization · Pronunciation consistency · Multilingual NLP
+
+**Stack:** Python · NLP · Regex
+
+🔗 [View Repository](https://github.com/Ajaj-Ali/text_preprocessor_for_TTS)
+
+### 🗣️ ARIA — Audio Responsive Intelligent Assistant
+
+A multilingual conversational Voice AI assistant with real-time interaction using Faster-Whisper, Ollama/Qwen2-7B, and XTTS.
+
+**Focus:** Streaming speech interaction · Language detection · Speech-to-text · Text-to-speech
+
+**Stack:** Django Channels · WebSockets · Faster-Whisper · XTTS
+
+🔗 [Explore GitHub Projects](https://github.com/Ajaj-Ali)
+
+---
+
+## 🎧 Speech Data Engineering
+
+Built and maintained end-to-end data pipelines for speech AI, converting raw audio into structured, high-quality datasets for STT and TTS development.
+
+| Pipeline Stage | Engineering Work |
 |---|---|
-| **Sourcing** | Scraped and collected **9,000+ hours** of raw audio, alongside 60,000+ documents, from web and internal sources |
-| **Cleaning** | Denoising and audio enhancement to strip background noise and artifacts from raw recordings |
-| **Segmentation** | Standardized **VAD (Voice Activity Detection)** to accurately isolate speech segments and remove silence/non-speech audio |
-| **Quality** | Applied a repeatable, standardized processing pipeline to consistently produce **high-precision, production-grade speech datasets** |
-| **Outcome** | Cleaner training data directly improved STT/TTS model accuracy and naturalness in production |
+| **Data Collection** | Sourced 9,000+ hours of audio and 60,000+ documents |
+| **Audio Processing** | Denoising, enhancement, and artifact removal |
+| **Segmentation** | VAD-based speech segmentation and silence removal |
+| **Quality Control** | Standardized preprocessing and dataset validation |
+| **Model Enablement** | Prepared structured speech datasets for STT/TTS training |
 
-**Stack:** Python, audio signal processing, VAD, Pandas, large-scale web scraping, data pipelines
-
----
-
-### 📌 Featured Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| **[OriTTS – Multilingual Voice Generation](https://huggingface.co/)** | Production-grade multilingual TTS supporting **17 Indian languages** with natural prosody and real-time streaming, deployed via Hugging Face Spaces. | TTS, PyTorch, Streaming |
-| **[Text Preprocessor for TTS](https://github.com/Ajaj-Ali/text_preprocessor_for_TTS)** | Configurable text-normalization pipeline for multilingual TTS — numbers, dates, currencies, symbols, abbreviations — improving pronunciation and synthesis quality across English & Indian languages. | Python, Regex, NLP |
-| **[ARIA — Audio Responsive Intelligent Assistant](https://github.com/Ajaj-Ali)** | Multilingual Voice AI assistant with real-time streaming conversation using Faster-Whisper, Ollama (Qwen2-7B), and XTTS, with automatic language detection and token streaming over a custom Django Channels backend. | Django, WebSockets, Faster-Whisper, XTTS |
-
-> 💡 Replace the OriTTS and ARIA links above with their exact URLs once you confirm them — I linked what I could verify and placeholder'd the rest so nothing points to the wrong place.
+**Stack:** Python · Audio Signal Processing · VAD · Pandas · Data Pipelines
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ajaj-Ali&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajaj-Ali&layout=compact&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ajaj-Ali&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajaj-Ali&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ajaj-Ali&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=Ajaj-Ali&theme=transparent&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ajaj-Ali&theme=github-compact&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
 
-### 📫 Let's Connect
+## 🤝 Let's Connect
 
 <p align="center">
+  <i>Interested in Applied AI, GenAI, Agentic Systems, or Voice AI?</i>
+  <br /><br />
   <a href="https://www.linkedin.com/in/ajaj-ali/">LinkedIn</a> ·
   <a href="mailto:ajajali7534@gmail.com">Email</a> ·
-  <a href="https://huggingface.co/">Hugging Face</a>
+  <a href="https://huggingface.co/ajajali09">Hugging Face</a> ·
+  <a href="https://github.com/Ajaj-Ali">GitHub</a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ajaj-Ali&label=Profile%20Views&color=0EA5E9&style=flat-square" alt="Profile views" />
 </p>
