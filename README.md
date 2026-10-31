@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./banner.svg" alt="Ajaj Ali | Applied AI Engineer" width="100%" />
+  <img src="./ajaj_ali_github_banner.svg" alt="Ajaj Ali | Applied AI Engineer" width="100%" />
 </p>
 
 <h1 align="center">Hey, I'm Ajaj Ali 👋</h1>
