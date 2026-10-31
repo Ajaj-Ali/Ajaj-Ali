@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Ajaj Ali — AI/ML Engineer | Turning Ideas into Intelligent Solutions</title>
+<desc id="desc">Animated GitHub profile banner with mountain landscape, flying birds, and professional details.</desc>
+
+<defs>
+  <!-- Sky gradient -->
+  <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#b8dff5"/>
+    <stop offset="35%" stop-color="#d4ecf9"/>
+    <stop offset="60%" stop-color="#e8f4fb"/>
+    <stop offset="80%" stop-color="#f0f7e8"/>
+    <stop offset="95%" stop-color="#fef9e7"/>
+    <stop offset="100%" stop-color="#fdeeb0"/>
+  </linearGradient>
+
+  <!-- Sunrise glow -->
+  <radialGradient id="sunGlow" cx="35%" cy="85%" r="35%">
+    <stop offset="0%" stop-color="#fff7cc" stop-opacity="0.9">
+      <animate attributeName="stop-opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="40%" stop-color="#fdeeb0" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#e8f4fb" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Mountain gradients -->
+  <linearGradient id="mtnFar" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#a8c8e0"/>
+    <stop offset="100%" stop-color="#c5dced"/>
+  </linearGradient>
+  <linearGradient id="mtnMid" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7bacc8"/>
+    <stop offset="100%" stop-color="#a1c8dd"/>
+  </linearGradient>
+  <linearGradient id="mtnNear" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#5a94b3"/>
+    <stop offset="100%" stop-color="#7fb5cf"/>
+  </linearGradient>
+  <linearGradient id="cliff" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#4a7a5e"/>
+    <stop offset="100%" stop-color="#3d6b52"/>
+  </linearGradient>
+
+  <!-- Right panel gradient -->
+  <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#f0f7fc"/>
+    <stop offset="100%" stop-color="#e6f0f8"/>
+  </linearGradient>
+
+  <!-- Divider line gradient -->
+  <linearGradient id="divLine" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#3b82c4" stop-opacity="0"/>
+    <stop offset="20%" stop-color="#3b82c4" stop-opacity="0.5"/>
+    <stop offset="80%" stop-color="#3b82c4" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#3b82c4" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Soft shadow for text -->
+  <filter id="textShadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.8"/>
+  </filter>
+</defs>
+
+<!-- ===== SKY BACKGROUND ===== -->
+<rect width="1200" height="400" fill="url(#sky)"/>
+
+<!-- Sunrise glow -->
+<rect width="800" height="400" fill="url(#sunGlow)" opacity="0.6">
+  <animate attributeName="opacity" values="0.5;0.7;0.5" dur="6s" repeatCount="indefinite"/>
+</rect>
+
+<!-- ===== CLOUDS ===== -->
+<!-- Cloud 1 - high, small -->
+<g opacity="0.5">
+  <ellipse cx="200" cy="55" rx="60" ry="15" fill="white"/>
+  <ellipse cx="180" cy="50" rx="35" ry="12" fill="white"/>
+  <ellipse cx="225" cy="48" rx="30" ry="10" fill="white"/>
+  <animateTransform attributeName="transform" type="translate" values="0,0;40,0;0,0" dur="25s" repeatCount="indefinite"/>
+</g>
+
+<!-- Cloud 2 - mid-left -->
+<g opacity="0.4">
+  <ellipse cx="80" cy="90" rx="50" ry="13" fill="white"/>
+  <ellipse cx="60" cy="85" rx="30" ry="10" fill="white"/>
+  <ellipse cx="105" cy="83" rx="25" ry="9" fill="white"/>
+  <animateTransform attributeName="transform" type="translate" values="0,0;30,0;0,0" dur="30s" repeatCount="indefinite"/>
+</g>
+
+<!-- Cloud 3 - right area -->
+<g opacity="0.35">
+  <ellipse cx="550" cy="40" rx="45" ry="12" fill="white"/>
+  <ellipse cx="535" cy="35" rx="25" ry="9" fill="white"/>
+  <ellipse cx="570" cy="34" rx="22" ry="8" fill="white"/>
+  <animateTransform attributeName="transform" type="translate" values="0,0;-25,0;0,0" dur="28s" repeatCount="indefinite"/>
+</g>
+
+<!-- Cloud 4 -->
+<g opacity="0.3">
+  <ellipse cx="380" cy="70" rx="40" ry="10" fill="white"/>
+  <ellipse cx="365" cy="65" rx="22" ry="8" fill="white"/>
+  <animateTransform attributeName="transform" type="translate" values="0,0;20,0;0,0" dur="22s" repeatCount="indefinite"/>
+</g>
+
+<!-- ===== MOUNTAINS - Far background ===== -->
+<path d="M 0,320 L 0,260 Q 30,230 60,250 Q 100,210 140,240 Q 180,200 220,230 Q 260,195 300,220 Q 340,185 380,215 Q 420,195 460,225 Q 500,200 540,235 Q 570,215 600,240 L 600,320 Z" fill="url(#mtnFar)" opacity="0.5">
+  <animate attributeName="opacity" values="0.45;0.55;0.45" dur="8s" repeatCount="indefinite"/>
+</path>
+
+<!-- Mountains - Mid -->
+<path d="M 0,320 L 0,280 Q 40,250 80,265 Q 120,235 160,260 Q 200,225 250,255 Q 290,230 330,258 Q 370,240 410,260 Q 450,235 500,262 Q 540,245 580,268 Q 610,255 640,275 L 640,320 Z" fill="url(#mtnMid)" opacity="0.6"/>
+
+<!-- Mountains - Near with more detail -->
+<path d="M 0,320 L 0,295 Q 20,275 50,285 Q 80,260 120,280 Q 160,255 200,278 Q 240,260 280,282 Q 310,268 350,285 Q 380,270 420,288 Q 460,275 500,290 Q 530,280 560,295 Q 590,285 620,300 L 640,320 Z" fill="url(#mtnNear)" opacity="0.55"/>
+
+<!-- ===== CLIFF / GROUND (foreground left) ===== -->
+<path d="M 0,400 L 0,300 Q 10,290 25,295 Q 40,285 60,290 Q 80,282 105,288 Q 130,280 160,285 L 180,282 Q 195,290 210,310 Q 225,330 230,360 Q 235,380 240,400 Z" fill="url(#cliff)" opacity="0.85"/>
+
+<!-- Grass/vegetation on cliff -->
+<g opacity="0.3" fill="#3d8b5e">
+  <ellipse cx="40" cy="293" rx="12" ry="4"/>
+  <ellipse cx="80" cy="286" rx="10" ry="3"/>
+  <ellipse cx="120" cy="283" rx="14" ry="4"/>
+  <ellipse cx="155" cy="284" rx="8" ry="3"/>
+</g>
+
+<!-- ===== PERSON SILHOUETTE on cliff ===== -->
+<g transform="translate(130, 240)" opacity="0.75">
+  <!-- Head -->
+  <circle cx="18" cy="8" r="8" fill="#2c4a5e"/>
+  <!-- Body -->
+  <path d="M 10,16 Q 12,25 10,38 Q 8,42 14,45 L 22,45 Q 28,42 26,38 Q 24,25 26,16 Z" fill="#2c6e91"/>
+  <!-- Legs -->
+  <path d="M 12,45 Q 8,55 6,62 Q 5,65 8,65 L 12,65 Q 14,60 16,55" fill="#2c4a5e"/>
+  <path d="M 24,45 Q 28,55 30,62 Q 31,65 28,65 L 24,65 Q 22,60 20,55" fill="#2c4a5e"/>
+  <!-- Backpack -->
+  <rect x="24" y="18" width="10" height="18" rx="3" fill="#3b7ea1" opacity="0.9"/>
+  <rect x="25" y="20" width="8" height="4" rx="1" fill="#2c6e91" opacity="0.6"/>
+  <!-- Arm (resting) -->
+  <path d="M 10,20 Q 4,28 6,35" stroke="#2c4a5e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Hair -->
+  <path d="M 10,6 Q 14,0 22,2 Q 26,4 26,8" fill="#1a3344"/>
+</g>
+
+<!-- ===== ANIMATED BIRDS ===== -->
+<!-- Bird group 1 -->
+<g fill="none" stroke="#5a8aa8" stroke-width="1.2" stroke-linecap="round">
+  <path d="M 0,0 Q 5,-5 10,0 Q 15,-5 20,0">
+    <animateTransform attributeName="transform" type="translate" values="280,80;350,65;420,75;280,80" dur="18s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- Bird 2 -->
+<g fill="none" stroke="#6a9ab8" stroke-width="1" stroke-linecap="round">
+  <path d="M 0,0 Q 4,-4 8,0 Q 12,-4 16,0">
+    <animateTransform attributeName="transform" type="translate" values="320,100;400,85;470,95;320,100" dur="20s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- Bird 3 -->
+<g fill="none" stroke="#7aacca" stroke-width="0.8" stroke-linecap="round">
+  <path d="M 0,0 Q 3,-3 6,0 Q 9,-3 12,0">
+    <animateTransform attributeName="transform" type="translate" values="350,60;410,50;480,55;350,60" dur="22s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- Bird 4 - higher, smaller -->
+<g fill="none" stroke="#8bbcd6" stroke-width="0.7" stroke-linecap="round">
+  <path d="M 0,0 Q 3,-2.5 6,0 Q 9,-2.5 12,0">
+    <animateTransform attributeName="transform" type="translate" values="440,45;500,35;560,42;440,45" dur="24s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- Bird 5 -->
+<g fill="none" stroke="#6a9ab8" stroke-width="1" stroke-linecap="round">
+  <path d="M 0,0 Q 4,-4 8,0 Q 12,-4 16,0">
+    <animateTransform attributeName="transform" type="translate" values="180,110;260,95;340,105;180,110" dur="19s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- ===== LEFT TEXT AREA ===== -->
+<!-- "Turning Ideas into Intelligent Solutions" - Script style -->
+<text x="60" y="130" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="17" fill="#3b82c4" opacity="0.85">
+  <tspan x="50" dy="0">Turning Ideas</tspan>
+  <tspan x="60" dy="22">into Intelligent</tspan>
+  <tspan x="70" dy="22">Solutions</tspan>
+</text>
+
+<!-- Main Name -->
+<text x="310" y="185" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="60" fill="#1a2e4a" letter-spacing="1">Ajaj Ali</text>
+
+<!-- Subtitle -->
+<text x="310" y="225" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="28" fill="#2c5f8a" letter-spacing="1">AI/ML Engineer</text>
+
+<!-- Skills line 1 -->
+<text x="310" y="262" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4a6e8a" letter-spacing="0.5">
+  Python  |  Generative AI  |  LLMs  |  RAG  |  Agentic AI
+</text>
+
+<!-- Skills line 2 -->
+<text x="310" y="282" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4a6e8a" letter-spacing="0.5">
+  Voice AI  |  FastAPI  |  Production AI
+</text>
+
+<!-- "Let's Build What's Next" tagline -->
+<text x="310" y="325" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#2c5f8a" opacity="0.9">
+  Let&#39;s Build What&#39;s Next
+</text>
+
+<!-- Animated rocket -->
+<g transform="translate(505, 310)">
+  <!-- Rocket body -->
+  <path d="M 5,12 Q 7,4 9,0 Q 11,4 13,12 Z" fill="#3b82c4" opacity="0.8"/>
+  <ellipse cx="9" cy="12" rx="4" ry="1.5" fill="#2c5f8a" opacity="0.6"/>
+  <!-- Flame -->
+  <path d="M 7,13 Q 9,18 11,13" fill="#f59e0b" opacity="0.7">
+    <animate attributeName="d" values="M 7,13 Q 9,18 11,13;M 7,13 Q 9,20 11,13;M 7,13 Q 9,18 11,13" dur="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <animateTransform attributeName="transform" type="translate" values="505,312;505,308;505,312" dur="2s" repeatCount="indefinite"/>
+</g>
+
+<!-- ===== VERTICAL DIVIDER ===== -->
+<line x1="690" y1="30" x2="690" y2="370" stroke="url(#divLine)" stroke-width="1.5" opacity="0.5"/>
+
+<!-- ===== RIGHT PANEL ===== -->
+<!-- Panel background -->
+<rect x="700" y="0" width="500" height="400" fill="url(#panelBg)" opacity="0.5"/>
+
+<!-- "Real-World Impact" header -->
+<text x="720" y="48" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="22" fill="#2c5f8a">Real-World Impact</text>
+
+<!-- Decorative underline -->
+<line x1="720" y1="56" x2="900" y2="56" stroke="#3b82c4" stroke-width="1.5" opacity="0.3"/>
+
+<!-- === Category 1: Conversational AI === -->
+<g transform="translate(720, 85)">
+  <!-- Icon circle -->
+  <circle cx="18" cy="18" r="18" fill="#3b82c4" opacity="0.15"/>
+  <!-- Chat icon -->
+  <rect x="8" y="10" width="16" height="12" rx="3" fill="#3b82c4" opacity="0.8"/>
+  <path d="M 12,22 L 10,27 L 16,22" fill="#3b82c4" opacity="0.8"/>
+  <circle cx="13" cy="16" r="1.2" fill="white"/>
+  <circle cx="18" cy="16" r="1.2" fill="white"/>
+  <circle cx="23" cy="16" r="1.2" fill="white"/>
+  <!-- Text -->
+  <text x="45" y="14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#1a2e4a">Conversational AI</text>
+  <text x="45" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6a8a9e">Chatbots | Voice AI | Speech-to-Speech</text>
+</g>
+
+<!-- === Category 2: Enterprise RAG === -->
+<g transform="translate(720, 145)">
+  <!-- Icon circle -->
+  <circle cx="18" cy="18" r="18" fill="#2ca58d" opacity="0.15"/>
+  <!-- Document/search icon -->
+  <rect x="9" y="8" width="14" height="18" rx="2" fill="#2ca58d" opacity="0.8"/>
+  <line x1="13" y1="13" x2="20" y2="13" stroke="white" stroke-width="1.2"/>
+  <line x1="13" y1="17" x2="20" y2="17" stroke="white" stroke-width="1.2"/>
+  <line x1="13" y1="21" x2="17" y2="21" stroke="white" stroke-width="1.2"/>
+  <circle cx="23" cy="24" r="4" fill="none" stroke="#2ca58d" stroke-width="1.5" opacity="0.8"/>
+  <line x1="26" y1="27" x2="29" y2="30" stroke="#2ca58d" stroke-width="1.5" opacity="0.8"/>
+  <!-- Text -->
+  <text x="45" y="14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#1a2e4a">Enterprise RAG</text>
+  <text x="45" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6a8a9e">Knowledge Retrieval | Multi-hop Reasoning</text>
+</g>
+
+<!-- === Category 3: Agentic AI Systems === -->
+<g transform="translate(720, 205)">
+  <!-- Icon circle -->
+  <circle cx="18" cy="18" r="18" fill="#7c3aed" opacity="0.15"/>
+  <!-- Network/nodes icon -->
+  <circle cx="18" cy="12" r="3.5" fill="#7c3aed" opacity="0.8"/>
+  <circle cx="10" cy="24" r="3" fill="#7c3aed" opacity="0.8"/>
+  <circle cx="26" cy="24" r="3" fill="#7c3aed" opacity="0.8"/>
+  <line x1="18" y1="15" x2="11" y2="22" stroke="#7c3aed" stroke-width="1.2" opacity="0.6"/>
+  <line x1="18" y1="15" x2="25" y2="22" stroke="#7c3aed" stroke-width="1.2" opacity="0.6"/>
+  <line x1="13" y1="24" x2="23" y2="24" stroke="#7c3aed" stroke-width="1" opacity="0.4"/>
+  <!-- Text -->
+  <text x="45" y="14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#1a2e4a">Agentic AI Systems</text>
+  <text x="45" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6a8a9e">ReAct | Tool Calling | Multi-Agent Workflows</text>
+</g>
+
+<!-- === Category 4: Multilingual TTS &amp; STT === -->
+<g transform="translate(720, 265)">
+  <!-- Icon circle -->
+  <circle cx="18" cy="18" r="18" fill="#059669" opacity="0.15"/>
+  <!-- Globe/language icon -->
+  <circle cx="18" cy="18" r="9" fill="none" stroke="#059669" stroke-width="1.5" opacity="0.8"/>
+  <ellipse cx="18" cy="18" rx="4.5" ry="9" fill="none" stroke="#059669" stroke-width="1" opacity="0.6"/>
+  <line x1="9" y1="18" x2="27" y2="18" stroke="#059669" stroke-width="0.8" opacity="0.5"/>
+  <line x1="11" y1="13" x2="25" y2="13" stroke="#059669" stroke-width="0.6" opacity="0.4"/>
+  <line x1="11" y1="23" x2="25" y2="23" stroke="#059669" stroke-width="0.6" opacity="0.4"/>
+  <!-- Sound waves -->
+  <path d="M 28,14 Q 31,18 28,22" fill="none" stroke="#059669" stroke-width="1" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 31,12 Q 35,18 31,24" fill="none" stroke="#059669" stroke-width="0.8" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </path>
+  <!-- Text -->
+  <text x="45" y="14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#1a2e4a">Multilingual TTS &#38; STT</text>
+  <text x="45" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6a8a9e">17+ Indian Languages | &#60;1s Response Time</text>
+</g>
+
+<!-- === Category 5: AI at Scale === -->
+<g transform="translate(720, 325)">
+  <!-- Icon circle -->
+  <circle cx="18" cy="18" r="18" fill="#0284c7" opacity="0.15"/>
+  <!-- Gear icon -->
+  <circle cx="18" cy="18" r="5" fill="none" stroke="#0284c7" stroke-width="1.5" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" values="0 18 18;360 18 18" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="18" cy="18" r="2" fill="#0284c7" opacity="0.8"/>
+  <!-- Gear teeth -->
+  <g opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" values="0 18 18;360 18 18" dur="12s" repeatCount="indefinite"/>
+    <rect x="16.5" y="9" width="3" height="4" rx="0.5" fill="#0284c7"/>
+    <rect x="16.5" y="23" width="3" height="4" rx="0.5" fill="#0284c7"/>
+    <rect x="9" y="16.5" width="4" height="3" rx="0.5" fill="#0284c7"/>
+    <rect x="23" y="16.5" width="4" height="3" rx="0.5" fill="#0284c7"/>
+    <rect x="10.5" y="10.5" width="3" height="3.5" rx="0.5" fill="#0284c7" transform="rotate(45 12 12.25)"/>
+    <rect x="22.5" y="22" width="3" height="3.5" rx="0.5" fill="#0284c7" transform="rotate(45 24 23.75)"/>
+    <rect x="22.5" y="10.5" width="3" height="3.5" rx="0.5" fill="#0284c7" transform="rotate(-45 24 12.25)"/>
+    <rect x="10.5" y="22" width="3" height="3.5" rx="0.5" fill="#0284c7" transform="rotate(-45 12 23.75)"/>
+  </g>
+  <!-- Text -->
+  <text x="45" y="14" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="14" fill="#1a2e4a">AI at Scale</text>
+  <text x="45" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#6a8a9e">Inference | Deployment | Cost Optimization</text>
+</g>
+
+<!-- ===== SUBTLE LIGHT RAYS from horizon ===== -->
+<g opacity="0.06">
+  <polygon points="350,320 320,0 380,0" fill="#ffd700">
+    <animate attributeName="opacity" values="0.04;0.1;0.04" dur="7s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="400,320 375,0 425,0" fill="#ffd700">
+    <animate attributeName="opacity" values="0.03;0.08;0.03" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="300,320 270,0 330,0" fill="#ffd700">
+    <animate attributeName="opacity" values="0.03;0.07;0.03" dur="8s" begin="2s" repeatCount="indefinite"/>
+  </polygon>
+</g>
+
+<!-- ===== BOTTOM ACCENT ===== -->
+<rect x="0" y="396" width="1200" height="4" fill="#3b82c4" opacity="0.2"/>
+
+</svg>
